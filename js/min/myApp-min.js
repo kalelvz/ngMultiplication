@@ -1,0 +1,1 @@
+angular.module("myApp",[]).controller("MultiplicationCtrl",function(i){var n=this;n.numberLimit=i.initialNumberLimit||10,n.numbers=function(){for(var i=[],r=0;r<n.numberLimit;r++)i[r]=r+1;return i},n.compute=function(i,n){return i*n}});
